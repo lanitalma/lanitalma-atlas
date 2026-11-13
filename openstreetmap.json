@@ -1,0 +1,623 @@
+{
+  "version": 8,
+  "name": "OpenStreetMap",
+  "metadata": {
+    "maptiler": {
+      "groups": [
+        {
+          "icon": "poi",
+          "id": "poi",
+          "layers": [
+            "Shop",
+            "Waste",
+            "Mortuary",
+            "Education",
+            "Outdoor",
+            "Sport",
+            "Ferry",
+            "Food",
+            "Public",
+            "Cultural",
+            "Attraction",
+            "Transport",
+            "Health",
+            "Campsite",
+            "Accommodation",
+            "Place of worship",
+            "Bus stop",
+            "Bus station",
+            "Harbor",
+            "Mall",
+            "Train",
+            "Local park",
+            "Zoo"
+          ],
+          "name": "POI"
+        },
+        {
+          "icon": "administrative",
+          "id": "administrative",
+          "layers": [
+            "Other border",
+            "Country border",
+            "Other labels",
+            "Village labels",
+            "Town labels",
+            "State labels",
+            "City labels",
+            "Capital city labels",
+            "Country labels",
+            "Disputed border"
+          ],
+          "name": "Administrative"
+        },
+        {
+          "icon": "built-up",
+          "id": "built-up",
+          "layers": [
+            "Garage",
+            "Residential",
+            "Aeroway",
+            "Runway",
+            "Taxiway",
+            "Landuse pattern",
+            "Landuse outline",
+            "Theme park",
+            "Building",
+            "House number labels",
+            "Major airport labels",
+            "Airport labels",
+            "Airport gate labels",
+            "Education and Health",
+            "Commercial",
+            "Railway",
+            "Cemetery",
+            "Military",
+            "Dam",
+            "Industrial",
+            "Retail",
+            "Stadium",
+            "Pitch",
+            "Quarry"
+          ],
+          "name": "Built-up"
+        },
+        {
+          "icon": "transport",
+          "id": "transport",
+          "layers": [
+            "Ferry line",
+            "Highway link tunnel outline",
+            "Service tunnel outline",
+            "Link tunnel outline",
+            "Street tunnel outline",
+            "Tertiary tunnel outline",
+            "Secondary tunnel outline",
+            "Trunk tunnel outline",
+            "Trunk tunnel under construction outline",
+            "Primary tunnel outline",
+            "Highway tunnel under construction outline",
+            "Highway tunnel outline",
+            "Path tunnel second outline",
+            "Path tunnel outline",
+            "Cycleway path tunnel",
+            "Bridleway path tunnel",
+            "Footway path tunnel",
+            "Highway link tunnel",
+            "Service tunnel",
+            "Service tunnel under construction",
+            "Link tunnel",
+            "Minor tunnel",
+            "Minor tunnel under construction",
+            "Tertiary tunnel",
+            "Tertiary tunnel under construction",
+            "Secondary tunnel",
+            "Secondary tunnel under construction",
+            "Primary tunnel",
+            "Primary tunnel under construction",
+            "Trunk tunnel",
+            "Trunk tunnel under construction",
+            "Highway tunnel",
+            "Highway tunnel under construction",
+            "Major rail tunnel",
+            "Major rail tunnel hatching",
+            "Pier",
+            "Pier road",
+            "Bridge area",
+            "Platform area",
+            "Pedestrian area",
+            "Service road outline",
+            "Primary road link outline",
+            "Trunk road link outline",
+            "Highway link outline",
+            "Minor road outline",
+            "Tertiary road link outline",
+            "Tertiary road outline",
+            "Secondary road link outline",
+            "Secondary road outline",
+            "Trunk road outline",
+            "Primary road outline",
+            "Highway road outline",
+            "Pedestrian road outline",
+            "Pedestrian road",
+            "Steps path outline",
+            "Bridleway path outline",
+            "Cycleway path outline",
+            "Footway path outline",
+            "Cycleway path",
+            "Steps path",
+            "Bridleway path",
+            "Footway path",
+            "Tertiary road link",
+            "Secondary road link",
+            "Primary road link",
+            "Trunk road link",
+            "Highway road link",
+            "Service road",
+            "Service road under construction",
+            "Raceway road",
+            "Minor road",
+            "Minor road under construction",
+            "Secondary road",
+            "Tertiary road",
+            "Tertiary road under construction",
+            "Secondary road under construction",
+            "Primary road under construction",
+            "Primary road",
+            "Trunk road",
+            "Trunk road under construction",
+            "Highway road",
+            "Highway road under construction",
+            "Subway line",
+            "Major rail",
+            "Minor rail",
+            "Major rail hatching",
+            "Minor rail hatching",
+            "Highway link bridge outline",
+            "Service bridge outline",
+            "Link bridge outline",
+            "Street bridge outline",
+            "Path bridge second outline",
+            "Path bridge outline",
+            "Secondary bridge outline",
+            "Tertiary bridge outline",
+            "Trunk bridge outline",
+            "Primary bridge outline",
+            "Highway bridge outline",
+            "Cycleway bridge",
+            "Bridleway bridge",
+            "Footway bridge",
+            "Highway link bridge",
+            "Service bridge",
+            "Service bridge under construction",
+            "Link bridge",
+            "Minor bridge",
+            "Minor bridge under construction",
+            "Tertiary bridge",
+            "Secondary bridge",
+            "Secondary bridge under construction",
+            "Tertiary bridge under construction",
+            "Primary bridge",
+            "Trunk bridge",
+            "Trunk bridge under construction",
+            "Highway bridge",
+            "Highway bridge under construction",
+            "Major rail bridge",
+            "Major rail bridge hatching",
+            "Cablecar",
+            "Cablecar dash",
+            "Oneway path",
+            "Oneway",
+            "Oneway opposite",
+            "Ferry labels",
+            "Road labels",
+            "Tertiary road shield",
+            "Secondary road shield",
+            "Primary road shield",
+            "Highway shield",
+            "Trunk road under construction dash",
+            "Trunk bridge under construction dash",
+            "Secondary road under construction dash",
+            "Tertiary road under construction dash",
+            "Primary road under construction dash",
+            "Highway road under construction dash",
+            "Highway bridge under construction dash",
+            "Minor road under construction dash",
+            "Tertiary bridge under construction dash",
+            "Minor bridge under construction dash",
+            "Secondary bridge under construction dash",
+            "Primary bridge under construction",
+            "Primary bridge under construction dash",
+            "Trunk road shield",
+            "Track road",
+            "Track road outline",
+            "Major rail service",
+            "Major rail bridge service",
+            "Minor rail bridge hatching",
+            "Minor rail bridge"
+          ],
+          "name": "Transport"
+        },
+        {
+          "icon": "water",
+          "id": "water",
+          "layers": [
+            "River tunnel",
+            "River",
+            "River intermittent",
+            "Other waterway",
+            "Other waterway intermittent",
+            "Water intermittent",
+            "Water",
+            "River bridge outline",
+            "River bridge",
+            "River labels",
+            "Lakeline labels",
+            "Water labels"
+          ],
+          "name": "Water"
+        },
+        {
+          "icon": "nature",
+          "id": "nature",
+          "layers": [
+            "Farmland (medium scale)",
+            "Park",
+            "Farm",
+            "Landcover patterns",
+            "Landcover outline",
+            "Glacier",
+            "Glacier outline",
+            "National parks",
+            "National park outline",
+            "National park labels",
+            "Mountain peak labels",
+            "Wood (medium scale)",
+            "Rock (medium scale)",
+            "Grass (medium scale)",
+            "Sand (medium scale)",
+            "Wetland (medium scale)",
+            "Allotments",
+            "Bare rock",
+            "Beach",
+            "Dune",
+            "Scrub",
+            "Marsh",
+            "Farmland",
+            "Forest",
+            "Garden",
+            "Grass",
+            "Heath",
+            "Mangrove",
+            "Meadow",
+            "Orchard and vineyard",
+            "Recreation ground",
+            "Sand",
+            "Scree",
+            "Wetland and swamp",
+            "Tidalflat",
+            "Wood",
+            "Volcano peak labels",
+            "Garden pattern"
+          ],
+          "name": "Nature"
+        },
+        {
+          "icon": "background",
+          "id": "background",
+          "layers": ["Background"],
+          "name": "Background"
+        }
+      ]
+    },
+    "maputnik:renderer": "mlgljs"
+  },
+  "center": [2.8655946968546004, 22.80535462569901],
+  "zoom": 0.7418741168636303,
+  "bearing": 0,
+  "pitch": 0,
+  "sources": {
+    "openmaptiles": {
+      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key=Jn7LPmeLnAfXyO0VFI1L",
+      "type": "vector"
+    }
+  },
+  "sprite": "https://api.maptiler.com/sprites/019d2471-bb09-76a3-8579-65d9425a91f6/sprite",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=get_your_own_OpIi9ZULNHzrESv6T2vL",
+  "layers": [
+    {
+      "id": "Background",
+      "type": "background",
+      "layout": {"visibility": "none"},
+      "paint": {"background-color": "hsl(40, 26%, 93%)"}
+    },
+    {
+      "id": "Water",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "filter": ["all", ["!=", "intermittent", 1], ["!=", "brunnel", "tunnel"]],
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(158, 220, 240, 1)"}
+    },
+    {
+      "id": "Building",
+      "type": "fill",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "building",
+      "minzoom": 13,
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "fill-color": {
+          "stops": [[13, "hsl(24, 19%, 84%)"], [16, "hsl(26, 17%, 82%)"]]
+        },
+        "fill-outline-color": {
+          "base": 1,
+          "stops": [
+            [13, "rgba(148, 105, 63, 1)"],
+            [16, "rgba(239, 236, 235, 1)"]
+          ]
+        }
+      }
+    },
+    {
+      "id": "Minor road outline",
+      "type": "line",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 13,
+      "filter": [
+        "all",
+        ["==", "$type", "LineString"],
+        ["!in", "brunnel", "bridge", "tunnel"],
+        ["in", "class", "minor"],
+        ["!=", "ramp", "1"]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(255, 85, 85, 1)",
+        "line-opacity": {"stops": [[10, 0], [12.5, 1]]},
+        "line-width": {
+          "base": 1.2,
+          "stops": [[13, 3], [14, 5], [15, 6], [16, 12], [17, 13], [18, 17]]
+        }
+      }
+    },
+    {
+      "id": "Tertiary road outline",
+      "type": "line",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 11,
+      "filter": [
+        "all",
+        ["!in", "brunnel", "bridge", "tunnel"],
+        ["in", "class", "tertiary"],
+        ["!=", "ramp", 1]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": "rgba(209, 140, 140, 1)",
+        "line-opacity": 1,
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [11, 2.5],
+            [12, 4],
+            [13, 5],
+            [14, 9],
+            [15, 10],
+            [16, 18],
+            [17, 21],
+            [18, 27]
+          ]
+        }
+      }
+    },
+    {
+      "id": "Minor road",
+      "type": "line",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 12,
+      "filter": [
+        "all",
+        ["==", "$type", "LineString"],
+        ["!in", "brunnel", "bridge", "tunnel"],
+        ["==", "class", "minor"]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": {
+          "stops": [[12, "hsl(0, 0%, 83%)"], [13, "hsl(0, 0%, 100%)"]]
+        },
+        "line-opacity": 1,
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [12, 1],
+            [13, 1.9],
+            [14, 3.8],
+            [15, 4.8],
+            [16, 10.4],
+            [17, 11.4],
+            [18, 15.4]
+          ]
+        }
+      }
+    },
+    {
+      "id": "Tertiary road",
+      "type": "line",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 9,
+      "filter": [
+        "all",
+        ["!in", "brunnel", "bridge", "tunnel"],
+        ["in", "class", "tertiary"],
+        ["!=", "ramp", 1]
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round",
+        "visibility": "visible"
+      },
+      "paint": {
+        "line-color": {
+          "stops": [[10.5, "hsl(0, 0%, 73%)"], [10.6, "hsl(0, 0%, 100%)"]]
+        },
+        "line-width": {
+          "base": 1.2,
+          "stops": [
+            [9, 0.7],
+            [10, 0.7],
+            [11, 1.9],
+            [12, 3],
+            [13, 3.9],
+            [14, 7.8],
+            [15, 8.8],
+            [16, 16.4],
+            [17, 19.4],
+            [18, 25.4]
+          ]
+        }
+      }
+    },
+    {
+      "id": "River labels",
+      "type": "symbol",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "minzoom": 3,
+      "filter": ["all", ["==", "$type", "LineString"]],
+      "layout": {
+        "symbol-placement": "line",
+        "symbol-spacing": 400,
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+        "text-font": ["Open Sans Italic", "Noto Sans Italic"],
+        "text-max-width": 5,
+        "text-size": {"stops": [[11, 10], [13, 12]]},
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "hsl(210, 40%, 50%)",
+        "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "Road labels",
+      "type": "symbol",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
+      "minzoom": 11,
+      "maxzoom": 22,
+      "filter": ["all", ["!=", "class", "ferry"]],
+      "layout": {
+        "symbol-placement": "line",
+        "symbol-spacing": ["step", ["zoom"], 250, 17, 400, 20, 800, 21, 1100],
+        "text-anchor": "center",
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+        "text-font": ["Open Sans Regular", "Noto Sans Regular"],
+        "text-offset": [0, 0],
+        "text-size": {"base": 1, "stops": [[14, 9], [18, 13]]},
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "hsl(0, 0%, 0%)",
+        "text-halo-color": "hsla(0, 0%, 100%, 0.97)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "City labels",
+      "type": "symbol",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "minzoom": 4,
+      "maxzoom": 14,
+      "filter": ["all", ["==", "class", "city"], ["!in", "capital", 1, 2]],
+      "layout": {
+        "icon-allow-overlap": true,
+        "icon-image": {"stops": [[4, "place-6"], [7, " "]]},
+        "icon-offset": [0, 3],
+        "icon-optional": false,
+        "symbol-sort-key": ["to-number", ["get", "rank"]],
+        "text-anchor": "bottom",
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+        "text-font": ["Open Sans Semi Bold", "Noto Sans Regular"],
+        "text-max-width": 8,
+        "text-offset": [0, 0],
+        "text-size": {"base": 1.2, "stops": [[4, 11], [15, 16]]},
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": {
+          "stops": [[6, "hsl(0, 0%, 35%)"], [14, "hsl(0, 0%, 13%)"]]
+        },
+        "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
+        "text-halo-width": 1
+      }
+    },
+    {
+      "id": "Country labels",
+      "type": "symbol",
+      "metadata": {},
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "minzoom": 2,
+      "maxzoom": 12,
+      "filter": ["all", ["==", "class", "country"], ["!=", "iso_a2", "VA"]],
+      "layout": {
+        "symbol-sort-key": ["to-number", ["get", "rank"]],
+        "text-field": "{name:en}",
+        "text-font": ["Open Sans Semi Bold", "Noto Sans Bold"],
+        "text-max-width": 6.25,
+        "text-size": [
+          "interpolate",
+          ["linear", 1],
+          ["zoom"],
+          4.99,
+          ["case", [">", ["get", "rank"], 2], 0, 11],
+          5,
+          ["case", [">", ["get", "rank"], 2], 13, 14],
+          7,
+          ["case", [">", ["get", "rank"], 2], 17, 19]
+        ],
+        "text-transform": "none",
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": {
+          "stops": [[2, "hsl(302, 16%, 36%)"], [10, "hsl(273, 33%, 22%)"]]
+        },
+        "text-halo-blur": 1,
+        "text-halo-color": "hsla(0, 0%, 100%, 0.8)",
+        "text-halo-width": 0.8
+      }
+    }
+  ],
+  "id": "openstreetmap"
+}

@@ -5,9 +5,10 @@
 type: map
 id: full-page
 config:
-  mapStyle: "https://tiles.openfreemap.org/styles/positron"
-  center: [-73.9654, 40.7829]
-  zoom: 12.5
+  mapStyle: "openstreetmap.json"
+  center: [-90.0715, 29.9511]
+  zoom: 12
+  interactive: true
 
 # MapLibre's own buttons. `navigation` adds zoom in/out and a compass (click
 # it to turn the map back to north). Others: scale, fullscreen, geolocate.
